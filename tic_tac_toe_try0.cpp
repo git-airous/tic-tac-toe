@@ -82,7 +82,7 @@ int checker(vector<vector<int>> grid) {
     //hr/vr lines check
     for (int i = 0; i < 3; i++) {
         if (grid[i][0] != 0 && grid[i][0] == grid[i][1] && grid[i][1] == grid[i][2]) return 1;
-        if (grid[i][0] != 0 && grid[0][i] == grid[1][i] && grid[1][i] == grid[2][i]) return 1;
+        if (grid[0][i] != 0 && grid[0][i] == grid[1][i] && grid[1][i] == grid[2][i]) return 1;
     }
 
     //diagonal lines check
