@@ -3,7 +3,7 @@
 #include <conio.h>
 using namespace std;
 
-// ── Utility / UI ──
+// Utility / UI --X--X--
 
 // Pause with optional early keypress
 void the_transition() {
@@ -192,7 +192,7 @@ int select_first_move() {
 }
 
 
-// ── Unified Win Logic ──
+// Unified Win Logic --X--X--
 
 // returns +10 if O wins, -10 if X wins, 0 otherwise
 int gameResult(const vector<vector<int>>& grid) {
@@ -268,7 +268,7 @@ pair<int,int> findBestMove(vector<vector<int>>& grid) {
 }
 
 
-// ── Game Modes ──
+// Game Modes --X--X--
 
 void players_vs_player() {
     // how to play
@@ -390,7 +390,7 @@ void player_vs_bot() {
 }
 
 
-// ── main ──
+// main --X--X--
 
 int main() {
     // initial welcome msg
@@ -416,3 +416,4 @@ int main() {
 
     return 0;
 }
+
